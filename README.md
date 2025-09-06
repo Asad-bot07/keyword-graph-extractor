@@ -8,11 +8,27 @@ The script also visualizes the co-occurrence graph with `networkx` and `matplotl
 
 ---
 
-## 🚀 Features
-- Preprocesses text (tokenization, stopword removal, case normalization).  
-- Builds a word co-occurrence network with adjustable window size.  
-- Ranks words using **PageRank**.  
-- Visualizes the graph and saves it as an image (`word_graph_302.png`).  
+## 📊 Example Output
+
+```
+Top Keywords: 
+girls: 0.0436 
+marriages: 0.0430 
+marriage: 0.0280 
+rescued: 0.0270 
+welfare: 0.0222 
+child: 0.0217 
+officials: 0.0211 
+stopped: 0.0206 
+said: 0.0172 
+district: 0.0167 
+```
+
+## Graph Visualization:
+
+The script generates a co-occurrence network plot like this:
+
+![Word Graph](./Data/word_graph.png)
 
 ---
 
@@ -36,25 +52,12 @@ python word_graph.py
 ```
 A graph visualization saved as word_graph_<datasetname>.png.
 ```
-
-## 📊 Example Output
+## File Structure
 
 ```
-Top Keywords: 
-girls: 0.0436 
-marriages: 0.0430 
-marriage: 0.0280 
-rescued: 0.0270 
-welfare: 0.0222 
-child: 0.0217 
-officials: 0.0211 
-stopped: 0.0206 
-said: 0.0172 
-district: 0.0167 
+.
+├── Data # data sets and output
+├── Research.py # main script
+└── README.md
 ```
 
-## Graph Visualization:
-
-The script generates a co-occurrence network plot like this:
-
-![Word Graph](./Data/words_graph.png)
