@@ -57,4 +57,4 @@ district: 0.0167
 
 The script generates a co-occurrence network plot like this:
 
-![](/data/
+![Word Graph](./Data/words_graph.png)
